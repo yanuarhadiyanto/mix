@@ -1,0 +1,35 @@
+{
+  "ignition": {
+    "version": "3.4.0"
+  },
+  "passwd": {
+    "groups": [
+      {
+        "name": "engineering"
+      },
+      {
+        "gid": 9000,
+        "name": "marketing"
+      }
+    ],
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "AAAAB3NzaC1yc2EAAAADAQABAAABgQDYpzEMksZBAsB8nXCTYTj/Otkj/vDprAGuk4IjIj5FqQGy/NLSY4JFS831IrcDxobs7z/7wdEzyDcoUzGlZ8J/f6kWbaFdQ/50i3agwK9q2NlDidLWE6HiwNBikh22qVtKdBVXYURlKYxA50biEJSMP8SV3FizP1uFcORlS4/gBP0FCOQiqi8F+Sh3Gari/RGyJXLIO2hsl18Yul2UzXOi8KcvqRnInXRJIblFNunEFp4ytcTFUtVlA4JYLMVAxOWuJYK/aNmAM42b8NULMwkseoNGMfjXggx4JUxc3dxRb/RNUTy20i4x8mcFPsE6Lnyw/hJ4cRQmZaX1DmeqSXP9qo/ICNc+Si5Eg0UAkzsSTBP00qIE0ZNcIrYjS7I6LjteZH3BXj9rHPZRxYFfspJy8xGD7V5AZMhJwybgDN/296/mmbTJ8Dnd1KJOf7t135kAqwPUTF/00e8qYLYqRx3dc+9qWrMLVIU44qh8ZzGeYk+U9ZYxbqmNreGp2g4l7Cs= yanuar@IXNBHW-YANUAR"
+        ]
+      },
+      {
+        "groups": [
+          "wheel",
+          "sudo"
+        ],
+        "name": "yanuar",
+        "passwordHash": "$y$DT$E07PyZADnqFPGZEbFbE4X8uZ8dhoDXn8gTemMxFY133oE1HInf9RX4atiFJUlUD",
+        "sshAuthorizedKeys": [
+          "AAAAB3NzaC1yc2EAAAADAQABAAABgQDYpzEMksZBAsB8nXCTYTj/Otkj/vDprAGuk4IjIj5FqQGy/NLSY4JFS831IrcDxobs7z/7wdEzyDcoUzGlZ8J/f6kWbaFdQ/50i3agwK9q2NlDidLWE6HiwNBikh22qVtKdBVXYURlKYxA50biEJSMP8SV3FizP1uFcORlS4/gBP0FCOQiqi8F+Sh3Gari/RGyJXLIO2hsl18Yul2UzXOi8KcvqRnInXRJIblFNunEFp4ytcTFUtVlA4JYLMVAxOWuJYK/aNmAM42b8NULMwkseoNGMfjXggx4JUxc3dxRb/RNUTy20i4x8mcFPsE6Lnyw/hJ4cRQmZaX1DmeqSXP9qo/ICNc+Si5Eg0UAkzsSTBP00qIE0ZNcIrYjS7I6LjteZH3BXj9rHPZRxYFfspJy8xGD7V5AZMhJwybgDN/296/mmbTJ8Dnd1KJOf7t135kAqwPUTF/00e8qYLYqRx3dc+9qWrMLVIU44qh8ZzGeYk+U9ZYxbqmNreGp2g4l7Cs= yanuar@IXNBHW-YANUAR"
+        ]
+      }
+    ]
+  }
+}
